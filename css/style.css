@@ -1,1 +1,79 @@
-crap crap
+body {
+  margin: 0;  
+}
+
+h1 {
+    margin: 0;
+}
+.top-container {
+/* use color hunt for pallette DBE4C6 BBD6B8 */
+background-color: #94AF9F;
+height: 200px;
+width: 100%;
+
+padding: 20px;
+
+}
+
+.profile_Pic {
+height: 100px;
+width: 100px;
+border-radius: 50%;
+
+}
+
+.middle-container {
+background-color: #AEC2B6;
+width: 100%;
+height: 200px;
+
+}
+
+.developer_Pic {
+  height: 60px;
+  width: 100px;
+  border-radius: 50%;
+ 
+}
+
+.project_Manager_Pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.process_Manfacturing_Pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+} 
+
+.software_Sales_Pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.security_Consultant_Pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+} 
+
+.full_Stack_Pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+     
+}
+
+
+.bottom-container {
+   background-color: #94AF9F;
+   width: 100%;
+   height: 200px;
+
+}
