@@ -1,6 +1,7 @@
 body {
   margin: 0;  
-  text-align: center;
+  text-align: center;]
+  color: #40514E;
 }
 
 h1 {
@@ -15,22 +16,38 @@ h1 {
 h2 {
   font-weight: normal;
   color:#66BFBF;
+  padding-bottom: 10px;
 }
 
 h3 {
-  color: #11999E 
+  color: #11999E;
 
 }
 
 a {
-  color: #11999E
+  color: #11999E;
+  margin: 10px 15px;
+  text-decoration: none;
 
+}
+
+a:hover {
+  background-color: #eaf6f6;
 }
 
 p {
     width: 50%;
     margin: 0 auto;
     font-weight: normal;
+
+}
+
+hr {
+   border: dotted #EAF6F6 6px;
+   border-bottom: none;
+   width: 4%;
+   margin: 20px auto;
+
 }
 
 .top-container {
@@ -43,6 +60,7 @@ padding: 20px;
 }
 
 .profile_Pic {
+
 height: 100px;
 width: 100px;
 border: solid 5px;
@@ -52,13 +70,14 @@ margin: 50px 5px;
 
 .middle-container {
   background-color: #AEC2B6; 
+  margin: 0 auto;
   
 }
 
 .developer {
   width: 50%;
   margin: 50px auto;
-  text-align: left;
+ /* text-align: left; */
 
 }
 
@@ -66,14 +85,14 @@ margin: 50px 5px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  float: left;
-  margin-right: 30px;
+ /* float: left;
+  margin-right: 30px;*/
 }
 
 .project_Manager {
   width: 50%;
   margin: 50px auto;
-  text-align: right;
+ /* text-align: right; */
   
 }
 
@@ -81,15 +100,15 @@ margin: 50px 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    float: right;
-    margin-left: 30px;
+ /*   float: right;
+    margin-left: 30px; */
     
 }
 
 .process_Manufacturing {
     width: 50%;
     margin: 50px auto;
-    text-align: left;
+ /*   text-align: left; */
 
 }
 
@@ -97,15 +116,15 @@ margin: 50px 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
+  /*  float: left;
+    margin-right: 30px; */
 
 } 
 
 .software_Sales {
     width: 50%;
     margin: 50px auto;
-    text-align: right;
+ /*   text-align: right; */
 
 }
 
@@ -113,14 +132,14 @@ margin: 50px 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    float: right;
-    margin-left: 30px;
+/*    float: right;
+    margin-left: 30px; */
 }
 
 .security_Consultant {
     width: 50%;
     margin: 50px auto;
-    text-align: left;
+ /*   text-align: left; */
 
 }
 
@@ -128,28 +147,63 @@ margin: 50px 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
+/*    float: left;
+    margin-right: 30px; */
 
 } 
 
 .full_Stack {
   width: 50%;
   margin: 50px auto;
-  text-align: right;
+/*  text-align: right; */
 }
 
 .full_Stack_Pic {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    float: right;
-    margin-left: 30px;
+ /*   float: right;
+    margin-left: 30px; */
      
 }
 
 
 .bottom-container {
    background-color: #94AF9F;
+   margin: 20px auto 10px;
+   padding: 30px 0 20px;
+   position: relative;
+}
 
+.contact_me_Message {
+  width: 40%;
+  margin: 20px auto 30px;
+}
+/* button code generated from https://css3buttongenerator.com/ */
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
