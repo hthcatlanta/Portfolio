@@ -73,7 +73,7 @@ margin: 50px 5px;
 .project_Manager {
   width: 50%;
   margin: 50px auto;
-  text-align: left;
+  text-align: right;
   
 }
 
@@ -81,8 +81,8 @@ margin: 50px 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
+    float: right;
+    margin-left: 30px;
     
 }
 
@@ -105,7 +105,7 @@ margin: 50px 5px;
 .software_Sales {
     width: 50%;
     margin: 50px auto;
-    text-align: left;
+    text-align: right;
 
 }
 
@@ -113,8 +113,8 @@ margin: 50px 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
+    float: right;
+    margin-left: 30px;
 }
 
 .security_Consultant {
@@ -136,15 +136,15 @@ margin: 50px 5px;
 .full_Stack {
   width: 50%;
   margin: 50px auto;
-  text-align: left;
+  text-align: right;
 }
 
 .full_Stack_Pic {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
+    float: right;
+    margin-left: 30px;
      
 }
 
