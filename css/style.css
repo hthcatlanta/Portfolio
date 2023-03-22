@@ -57,7 +57,8 @@ margin: 50px 5px;
 
 .developer {
   width: 50%;
-  
+  margin: 50px auto;
+  text-align: left;
 
 }
 
@@ -65,11 +66,14 @@ margin: 50px 5px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
- 
+  float: left;
+  margin-right: 30px;
 }
 
 .project_Manager {
   width: 50%;
+  margin: 50px auto;
+  text-align: left;
   
 }
 
@@ -77,11 +81,15 @@ margin: 50px 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    float: left;
+    margin-right: 30px;
     
 }
 
 .process_Manufacturing {
     width: 50%;
+    margin: 50px auto;
+    text-align: left;
 
 }
 
@@ -89,11 +97,15 @@ margin: 50px 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    float: left;
+    margin-right: 30px;
 
 } 
 
 .software_Sales {
     width: 50%;
+    margin: 50px auto;
+    text-align: left;
 
 }
 
@@ -101,10 +113,14 @@ margin: 50px 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    float: left;
+    margin-right: 30px;
 }
 
 .security_Consultant {
-    width: 50%
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
 
 }
 
@@ -112,17 +128,23 @@ margin: 50px 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    float: left;
+    margin-right: 30px;
 
 } 
 
 .full_Stack {
   width: 50%;
+  margin: 50px auto;
+  text-align: left;
 }
 
 .full_Stack_Pic {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    float: left;
+    margin-right: 30px;
      
 }
 
